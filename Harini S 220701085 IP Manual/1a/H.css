@@ -1,0 +1,76 @@
+
+body{
+background-color:gainsboro;
+}
+#s1{
+background-color:darkslategray;
+}
+#s2{
+color: white;
+text-align:left;
+      
+}
+#s3{
+color:white;
+text-align:right;
+}
+#s4{
+background-color:white;
+}
+table,th,td{
+border: 1px solid black;
+  border-collapse: collapse;
+width:100%;
+}
+.vertical {
+  border-left: 1px solid black;
+  height: 500px;
+  position: relative;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+#s6
+{
+background-color:white;
+color:darkslategray;
+}
+#s7
+{
+background-color:darkslategray;
+}
+#s8
+{
+background-color:white;
+}
+
+#s5
+{
+background-color:darkslategray;
+}
+.container {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        flex-wrap:wrap; 
+       
+    }
+.c1{
+order:1;
+color:black;
+padding-left:100px;
+}
+.c2{
+order:2;
+margin-left:auto;
+padding-right:280px;
+color:black;
+
+}
+.signature {
+    width: 150px; 
+    height: auto; 
+    margin-top: 10px; 
+    
+  }
+
